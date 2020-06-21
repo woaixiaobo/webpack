@@ -1,0 +1,19 @@
+#box1 {
+	width: 200px;
+	height: 200px;
+	background-color: pink;
+	animation: move 5s infinite linear;
+	display: flex;
+}
+
+@keyframes move {
+	0% {}
+
+	100% {
+		transform: translateX(100px)
+	}
+}
+
+#box1 p {
+	font-size: 20px;
+}
